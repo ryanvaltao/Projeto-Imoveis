@@ -8,8 +8,9 @@ View(dados)
 
 #-=-=-= GRAFICOS =-=-=-
 
-#preencher na branch imoveis-graficos
-#usar histograma, boxplot, dispersao, barras e densidade
+hist(dados$metragem,main = "Histograma das metragens",xlab = "Metragem",col = "blue",border = "black")
+boxplot(dados$preco,main = "Boxplot do Preço",ylab = "Preço",col = "lightgreen")
+plot(dados$metragem, dados$preco,main = "Preço vs Metragem",xlab = "Metragem",ylab = "Preço",pch = 19,col = "#53abff")
 
 #-=-=-= MEDIDAS =-=-=-
 
