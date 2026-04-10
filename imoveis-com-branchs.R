@@ -14,6 +14,6 @@ plot(dados$metragem, dados$preco,main = "Preço vs Metragem",xlab = "Metragem",y
 
 #-=-=-= MEDIDAS =-=-=-
 
-#preencher na branch imoveis-medidas
-#usar comandos de calculo minimo, maximo, media, mediana,
-#e desvio padrao
+mediana_imposto_anual = median(dados$imposto_anual)
+media_imposto_anual = mean(dados$imposto_anual)
+desvio_imposto_anual = sd(dados$imposto_anual)
